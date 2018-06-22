@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+    <script src="http://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous"></script>
+    <script src="assets/javascript/app.js"></script>
+</head>
+<body>
+<div class= "container">
+    <h1>Test your anatomy and physiology knowledge</h1>
+    <!-- Starter page -->
+    <button id="start">Start Game</button>
+</div>
+    <!-- Quiz page -->
+<div id="question-page">
+    <div><h2 id= "timer">90</h2></div>
+
+    <div id= "questions" >
+        <p>1. What are the bones of the foot called?</p>
+            <div class= "answers">
+                <input type="radio" name="question-1-answers" id="question-1-answers-A" value="A" />
+                <label for="question-1-answers-A">A) Carpals </label>
+            </div>
+            
+            <div class= "answers">
+                <input type="radio" name="question-1-answers" id="question-1-answers-B" value="B" />
+                <label for="question-1-answers-B">B) Balancers</label>
+            </div>
+            
+            <div class= "answers">
+                <input type="radio" name="question-1-answers" id="question-1-answers-C" value="C" />
+                <label for="question-1-answers-C">C) Tarsals</label>
+            </div>
+            
+            <div class= "answers">
+                <input type="radio" name="question-1-answers" id="question-1-answers-D" value="D" />
+                <label for="question-1-answers-D">D) None of the above</label>
+            </div>
+        <p>2. What does the function "adduction" refer to?</p>
+            <div class= "answers">
+                <input type="radio" name="question-2-answers" id="question-2-answers-A" value="A" />
+                <label for="question-2-answers-A">A) Alien encounter </label>
+            </div>
+            
+            <div class= "answers">
+                <input type="radio" name="question-2-answers" id="question-2-answers-B" value="B" />
+                <label for="question-2-answers-B">B) Violent bowel movements</label>
+            </div>
+            
+            <div class= "answers">
+                <input type="radio" name="question-2-answers" id="question-2-answers-C" value="C" />
+                <label for="question-2-answers-C">C) Bringing an arm or leg towards the body</label>
+            </div>
+            
+            <div class= "answers">
+                <input type="radio" name="question-2-answers" id="question-2-answers-D" value="D" />
+                <label for="question-2-answers-D">D) Running</label>
+            </div>
+        
+        <p>3. How many vertabrae are in the human body?</p>
+            <div class= "answers">
+                <input type="radio" name="question-3-answers" id="question-3-answers-A" value="A" />
+                <label for="question-3-answers-A">A) 33 </label>
+            </div>
+            
+            <div class= "answers">
+                <input type="radio" name="question-3-answers" id="question-3-answers-B" value="B" />
+                <label for="question-3-answers-B">B) 44</label>
+            </div>
+            
+            <div class= "answers">
+                <input type="radio" name="question-3-answers" id="question-3-answers-C" value="C" />
+                <label for="question-3-answers-C">C) 24</label>
+            </div>
+            
+            <div class= "answers">
+                <input type="radio" name="question-3-answers" id="question-3-answers-D" value="D" />
+                <label for="question-3-answers-D">D) None of the above</label>
+            </div>
+        
+        <button id="submit">Submit Quiz</button>
+    </div>
+</div>
+    <!-- Results Page -->
+<div id= "results-page">
+    <p id= "results">Results:</p>
+    <button id="refresh">Try again</button>
+</div>
+
+</body>
+</html>

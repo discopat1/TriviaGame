@@ -1,0 +1,12 @@
+        
+.container, #results-page, #timer{
+    text-align: center;
+}
+#questions {
+    position: relative;
+    top: 200px;
+}
+#timer, #results-page {
+    position: relative;
+    top: 75px;
+}
