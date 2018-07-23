@@ -71,14 +71,17 @@ function results(userChoices) {
 
    // Start over
 $("#refresh").click(function() {
+    $('input[name=radioName]:checked').prop("checked",false);
     $("#question-page").hide();
     $("#results-page").hide();
     $(".container").show();
+    correct = 0;
+    incorrect = 0;
     number = 60;
     $("#timer").html(number);
     clearInterval(intervalId);
     // couldn't get this to work... not sure why...
-    $("input:radio").removeAttr("checked");                
+                    
 });
 
 });
