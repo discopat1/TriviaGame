@@ -20,7 +20,18 @@ p {
 }
 #start {
     margin: 50px;
+    position: relative;
+    top: 400px;
 }
 h1 {
     margin-top: 50px;
 }
+button {
+    background-color: #7f1b1d;
+    color: #fff;
+}
+.image {
+    width: 388px;
+    border: 2px ridge red;
+}
+
