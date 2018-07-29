@@ -1,4 +1,9 @@
-        
+body {
+    background-color: #003ba1;
+    background-image: url("https://www.transparenttextures.com/patterns/cardboard-flat.png");
+    color: #fff;
+}      
+
 .container, #results-page, #timer{
     text-align: center;
 }
