@@ -10,4 +10,4 @@ This web app provides a basic Anatomy and Physiology Quiz. The user is given 3 m
 # Author
 Patrick Neff
 
-[Link] https://discopat1.github.io/TriviaGame/
+https://discopat1.github.io/TriviaGame/
